@@ -1,0 +1,172 @@
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin:auto;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div {
+	margin: auto;
+}
+
+
+.backTitle {
+  background: url('../images/back/0-4.png') top center no-repeat black;
+  height: 1600px;
+}
+
+.backMariner {
+  background: url('../images/back/2.png') top center no-repeat white;
+  height: 2500px;
+}
+
+.backDisplay {
+  background: url('../images/3.png') top center no-repeat white;
+  height: 1200px;
+  width: 1200px;
+}
+
+.text1 {
+  height: 1050px;
+  width: 1000px;
+}
+
+.backFobos1 {
+  background: url('../images/back/3-2.png') top center no-repeat black;
+  height: 2647px;
+}
+
+.backFobos2 {
+  background: url('../images/back/4.png') top center no-repeat white;
+  height: 2519px;
+}
+
+
+.backMars {
+  background: url('../images/back/5-3.png') top center no-repeat white;
+  height: 1700px;
+}
+
+.backMars2 {
+  height: 1900px;
+}
+
+.backPre {
+  background: url('../images/back/6.png') top center no-repeat white;
+  height: 1500px;
+  border: 1px solid white;
+}
+
+.backFinal {
+  background: url('../images/back/7-2.png') bottom center no-repeat white;
+  height: 1750px;
+}
+
+.backFooter {
+  background: black;
+}
+
+/* /////////// */
+
+h1, h2, blockquote, p  {
+ width: 1200px;
+}
+
+h1, h2, blockquote, p, span {
+    margin: 0 auto;
+    font-family: "PT Mono", monospace;
+    font-style: normal;
+    color: black;
+    padding: 0px 0px 20px 0px;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 58px;
+	line-height: 75px;
+	text-align: center;
+}
+
+h2 {
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 46px;
+  width: 996px;
+}
+
+p {
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 28px;
+  width: 996px;
+}
+
+center {
+	text-align:center;
+}
+
+strong {
+	font-weight: bold;
+}
+
+small {
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 22px;
+}
+
+blockquote {
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 26px;
+	text-align: center;
+  width: 795px;
+
+}
+
+.colorInvert {
+	color: white;
+}
+
+.positionBottom {
+	display:block;
+	margin: 620px auto 0px auto;
+}
+
+.positionBottom2 {
+	display:block;
+	margin: 700px auto 0px auto;
+}
+
+.bigtext {
+  font-size: 76px;
+  color: white;
+}
+
+.compMal {
+  font-size: 16px;
+  color: white;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  width: 33%;
+  border: 2px solid white;
+  padding: 10px 20px;
+  vertical-align: top;
+}
