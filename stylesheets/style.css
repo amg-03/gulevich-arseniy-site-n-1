@@ -1,12 +1,12 @@
 
+/* ИНИЦИАЛИЗАЦИЯ ———————————————————————————————————————————————————————————————*/
+
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin:auto;
-}
-
-a {
-  color: inherit;
+  margin: auto;
+  min-width: 1260px;
+  overflow-x: scroll;
 }
 
 img {
@@ -19,24 +19,25 @@ div {
 	margin: auto;
 }
 
+/* СТИЛИ ДЛЯ ФОНОВ —————————————————————————————————————————————————————————————*/
 
 .backTitle {
   background: url('../images/back/0-4.png') top center no-repeat black;
-  height: 1600px;
+  height: 1500px;
 }
 
 .backMariner {
   background: url('../images/back/2.png') top center no-repeat white;
-  height: 2500px;
+  height: 2400px;
 }
 
 .backDisplay {
-  background: url('../images/3.png') top center no-repeat white;
+  background: url('../images/back/3.png') top center no-repeat white;
   height: 1200px;
   width: 1200px;
 }
 
-.text1 {
+.textDisplay {
   height: 1050px;
   width: 1000px;
 }
@@ -76,13 +77,13 @@ div {
   background: black;
 }
 
-/* /////////// */
+/* СТИЛИ ТЕКСТОВЫЕ СЕМАНТИЧЕСКИЕ ———————————————————————————————————————————————*/
 
 h1, h2, blockquote, p  {
  width: 1200px;
 }
 
-h1, h2, blockquote, p, span {
+h1, h2, blockquote, p, span, a {
     margin: 0 auto;
     font-family: "PT Mono", monospace;
     font-style: normal;
@@ -111,6 +112,19 @@ p {
   width: 996px;
 }
 
+a {
+  color: white;
+  font-size: 22px;
+  font-weight: normal;
+  line-height: 22px;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+  background-color: white;
+}
+
 center {
 	text-align:center;
 }
@@ -134,8 +148,14 @@ blockquote {
 
 }
 
+/* КЛАССЫ ДЛЯ ТЕКСТОВ (изменение паддингов и цвета) ————————————————————————————*/
+
 .colorInvert {
 	color: white;
+}
+
+.backInvert {
+	background-color: white;
 }
 
 .positionBottom {
@@ -158,6 +178,8 @@ blockquote {
   color: white;
 }
 
+/* СТИЛИ ДЛЯ ВЕРХНЕЙ ИНФО-ТАБЛИЦЫ ——————————————————————————————————————————————*/
+
 table {
   table-layout: fixed;
   width: 100%;
@@ -169,4 +191,35 @@ td {
   border: 2px solid white;
   padding: 10px 20px;
   vertical-align: top;
+}
+
+/* СТИЛИ ДЛЯ МЕНЮ ——————————————————————————————————————————————————————————————*/
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+li div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  margin-left: 20px;
+  list-style-type: none;
 }
