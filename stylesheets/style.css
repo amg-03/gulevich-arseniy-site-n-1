@@ -23,12 +23,13 @@ div {
 
 .backTitle {
   background: url('../images/back/0-4.png') top center no-repeat black;
-  height: 1500px;
+  height: 1580px;
 }
 
 .backMariner {
   background: url('../images/back/2.png') top center no-repeat white;
-  height: 2400px;
+  height: 2750px;
+  /* border: 10px solid red; */
 }
 
 .backDisplay {
@@ -43,8 +44,8 @@ div {
 }
 
 .backFobos1 {
-  background: url('../images/back/3-2.png') top center no-repeat black;
-  height: 2647px;
+  background: url('../images/back/3-2.png') bottom center no-repeat black;
+  height: 3000px;
 }
 
 .backFobos2 {
@@ -63,14 +64,14 @@ div {
 }
 
 .backPre {
-  background: url('../images/back/6.png') top center no-repeat white;
+  background: url('../images/back/6.png') bottom center no-repeat white;
   height: 1500px;
   border: 1px solid white;
 }
 
 .backFinal {
   background: url('../images/back/7-2.png') bottom center no-repeat white;
-  height: 1750px;
+  height: 1600px;
 }
 
 .backFooter {
@@ -103,6 +104,8 @@ h2 {
 	font-size: 36px;
 	line-height: 46px;
   width: 996px;
+  text-align: center;
+
 }
 
 p {
@@ -146,6 +149,12 @@ blockquote {
 	text-align: center;
   width: 795px;
 
+}
+
+.gigant {
+  font-size: 220px;
+  color: white;
+  text-align: center;
 }
 
 /* КЛАССЫ ДЛЯ ТЕКСТОВ (изменение паддингов и цвета) ————————————————————————————*/
