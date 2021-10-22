@@ -7,6 +7,8 @@ body {
   margin: auto;
   min-width: 1260px;
   overflow-x: scroll;
+  font-family: "PT Mono", monospace;
+
 }
 
 img {
